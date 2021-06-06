@@ -5,7 +5,30 @@
 <title>DODOMA ORPHANAGES CENTERS</title>
 <meta name="generator" content="Quick 'n Easy Web Builder Trial Version - http://www.quickandeasywebbuilder.com">
 <meta name="viewport" content="width=device-width, initial-scale=1" /> 
-<style>
+<style>@media screen and (orientation: portrait) {
+  #toolbar {
+    width: 100%;
+  }
+}
+
+/* For landscape, we want the tool bar stick on the left */
+
+@media screen and (orientation: landscape) {
+  #toolbar {
+    position: fixed;
+    width: 2.65em;
+    height: 100%;
+  }
+
+  p {
+    margin-left: 2em;
+  }
+
+  li + li {
+    margin-top: .5em;
+  }
+}
+   
 body
 {
    background-color: #87CEEB;
